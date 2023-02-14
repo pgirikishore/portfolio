@@ -1,0 +1,38 @@
+.skills-container{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.skills-container img{
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+}
+.skills-container h2{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.skills-container h3{
+    text-align: center;
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+}
+
+.tools-container{
+    padding: 1rem;
+}
+
+.languages-container{
+    padding: 1rem;
+}
+
+.tech-container{
+    padding: 1rem;
+}
+
+.other-container{
+    padding: 1rem;
+}
