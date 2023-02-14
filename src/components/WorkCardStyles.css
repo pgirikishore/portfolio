@@ -1,0 +1,79 @@
+.project-title h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+} 
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.card {
+    padding: 0.8rem 0.8rem;
+    border: 1px solid white;
+    margin: 1.5rem;
+    width: 30%;
+    position: relative;
+    /* background-image: url("https://www.freecodecamp.org/news/content/images/size/w2000/2022/05/pexels-jack-hawley-57905.jpg"); */
+}
+
+.card hr {
+    height: 5px;
+	border: 0;
+	box-shadow: 0 5px 5px -5px white
+    inset;
+}
+  
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.card-header-heading {
+    max-width: 70%;
+}
+  
+.card-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.card-icons img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.card-para { 
+    padding-bottom: 5rem;
+}
+
+.card-button {
+    position: absolute;
+    /* margin: auto;
+    width: 50%; */
+    bottom: 0.5rem;
+    left: 30%;
+}
+
+.card-header-heading h2 {
+    color: #5B8FB9;
+    padding-bottom: 0.8rem;
+}
+
+@media screen and (max-width: 740px) {
+    .card-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        min-width: 90%;
+    }
+    
+}
