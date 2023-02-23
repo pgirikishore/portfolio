@@ -18,6 +18,7 @@
     width: 30%;
     position: relative;
     /* background-image: url("https://www.freecodecamp.org/news/content/images/size/w2000/2022/05/pexels-jack-hawley-57905.jpg"); */
+    background:  rgba(40, 30, 103, 0.28);
 }
 
 .card hr {
